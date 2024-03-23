@@ -1,0 +1,10 @@
+name Max
+scientific Canis-lupus-familiaris
+found Worldwide, domesticated
+color Various, breed-dependent
+live Homes-and-outdoors
+eat Dog-food-meat
+origin Various-countries-domesticated
+family Canidae
+genus Canis
+species Canis-lupus-familiaris

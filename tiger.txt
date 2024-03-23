@@ -1,0 +1,10 @@
+name Raj
+scientific Panthera-tigris
+found Asia
+color Orange-with-black-stripes
+live Various-habitats
+eat Carnivorous, mainly mammals
+origin Asia
+family Felidae
+genus Panthera
+species Panthera-tigris

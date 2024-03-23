@@ -1,0 +1,10 @@
+name Flipper
+scientific Delphinidae
+found Oceans
+color Grey
+live Oceans-and-seas
+eat Fish-squid
+origin Worldwide
+family Delphinidae
+genus Delphinus
+species Delphinidae

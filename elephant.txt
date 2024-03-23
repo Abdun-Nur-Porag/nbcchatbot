@@ -1,0 +1,10 @@
+name Dumbo
+scientific Loxodonta-africana
+found Africa-Asia
+color Grey
+live Forests-and-grasslands
+eat Vegetation-fruits
+origin Africa-Asia
+family Elephantidae
+genus Loxodonta
+species Loxodonta-africana

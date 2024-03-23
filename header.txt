@@ -1,0 +1,9 @@
+cow cow.txt
+cat cat.txt
+elephant elephant.txt
+dolphin dolphin.txt
+tiger tiger.txt
+lion lion.txt
+dog dog.txt
+penguin penguin.txt
+

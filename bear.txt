@@ -1,0 +1,4 @@
+type animal
+specis cordata
+color black-white
+orign snow-land

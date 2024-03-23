@@ -1,0 +1,10 @@
+name Simba
+scientific Panthera-leo
+found Sub-Saharan Africa, India
+color Tawny
+live Grasslands-and-savannas
+eat Carnivorous, mainly mammals
+origin Africa-India
+family Felidae
+genus Panthera
+species Panthera-leo

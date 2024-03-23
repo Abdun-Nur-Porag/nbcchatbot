@@ -1,0 +1,10 @@
+name Bessie
+scientific Bos-taurus
+found Worldwide
+color Typically-black-and-white
+live Farms-and-grasslands
+eat Grass-and-grains
+origin Various-countries-domesticated
+family Bovidae
+genus Bos
+species Bos-taurus

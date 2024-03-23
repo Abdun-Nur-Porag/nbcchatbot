@@ -1,0 +1,10 @@
+name Waddle
+scientific Spheniscidae
+found Southern-Hemisphere
+color Black-and-white
+live Antarctica
+eat Fish-krill
+origin Antarctica
+family Spheniscidae
+genus Pygoscelis
+species Spheniscidae
