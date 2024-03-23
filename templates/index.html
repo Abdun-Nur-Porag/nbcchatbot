@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bulma.min.css') }}">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            padding-bottom: 100px; /* Adjust as needed for the fixed chatbox */
+        }
+
+        #chatForm {
+            margin-bottom: 20px;
+        }
+
+        #outputContainer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background-color: #4caf50; /* Green color, change as needed */
+            color: white;
+            height:270px;
+        }
+
+        #outputContainer h2 {
+            margin-bottom: 10px;
+        }
+
+        #outputContainer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Carbon Omaga Project</h1>
+            <p class="title is-3">Testing chat bot</p>
+
+            <form id="chatForm" class="field has-addons">
+                <div class="control">
+                    <input class="input" type="text" id="inputChat" name="inputChat" placeholder="Enter your message" required>
+                </div>
+                <div class="control">
+                    <button class="button is-primary" type="button" onclick="sendChat()">Send</button>
+                </div>
+            </form>
+
+            <div id="outputContainer">
+                <h2>Chatbot Response:</h2>
+                <p id="chatbotOutput"></p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function sendChat() {
+            var inputChat = document.getElementById('inputChat').value;
+
+            // Sending input to Flask server
+            fetch('/chatbot', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ input: inputChat }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Displaying chatbot response
+                document.getElementById('chatbotOutput').innerText = data.output;
+            });
+        }
+    </script>
+</body>
+</html>
